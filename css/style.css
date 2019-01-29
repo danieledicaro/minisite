@@ -1,4 +1,9 @@
 /* change the background color */
+
+.navbar {
+    min-height: 80px;
+}
+
 .navbar-custom {
     background-color: #F4F0D4;
 }
