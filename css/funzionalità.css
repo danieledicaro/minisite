@@ -1,0 +1,38 @@
+.card{
+    margin:1rem;
+}
+
+.card-title
+{
+    margin-bottom: 1.3rem;
+}
+
+ul.card-text
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul.card-text >li
+{
+    margin-top: 0.4rem;
+}
+
+div.funzionalita {
+    background: white;
+    /*background: linear-gradient(to top, sandybrown, #fcfc62   );*/
+}
+@media (min-width: 576px) {
+    div.funzionalita {
+        min-width: 66%;
+    }
+}
+@media (max-width: 767px) {
+    .funzionalita .card.col-sm {
+        min-width: 250px;
+    }
+    .container .funzionalita .row {
+        margin: auto;
+    }
+}
